@@ -7,11 +7,19 @@ body{
 .imagemrodrigo{
   width: 24rem;
   margin-top: 5rem;
-  margin-right: 15rem;
 }
 
 .divmeio{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
+.divicone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+  gap: 0.5rem;
+  margin-right: 5rem;
+}

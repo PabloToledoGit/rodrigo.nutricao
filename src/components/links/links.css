@@ -11,20 +11,20 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-a {
+.Links {
     overflow: hidden;
     position: relative;
     display: inline-block;
   }
   
-  a::before,
-  a::after {
+  .Links::before,
+  .Links::after {
    content: '';
     position: absolute;
     width: 100%;
     left: 0;
   }
-  a::before {
+  .Links::before {
     background-color: #7ED957;
     height: 3.2px;
     bottom: 0;
@@ -32,7 +32,7 @@ a {
     transform: scaleX(0);
     transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
   }
-  a::after {
+  .Links::after {
     height: 100%;
     top: 0;
     transform-origin: 100% 50%;
@@ -41,19 +41,19 @@ a {
     color: #7ED957;
   }
   
-  a:hover::before {
+  .Links:hover::before {
     transform-origin: 0% 50%;
     transform: scaleX(1);
   }
-  a:hover::after {
+  .Links:hover::after {
     transform: translate3d(0, 0, 0);
   }
   
-  a span {
+  .Links span {
     display: inline-block;
     transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
   }
   
-  a:hover span {
+  .Links:hover span {
     transform: translate3d(-200%, 0, 0);
   }
