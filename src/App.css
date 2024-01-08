@@ -4,3 +4,14 @@ body{
 
 }
 
+.imagemrodrigo{
+  width: 24rem;
+  margin-top: 5rem;
+  margin-right: 15rem;
+}
+
+.divmeio{
+  display: flex;
+  justify-content: space-between;
+}
+

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+.corverde{
+    color: #7ED957;
+}
+
+.titulofrase{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 6rem;
+    width: 40rem;
+    margin-top: 10rem;
+    margin-left: 6rem;
+}
