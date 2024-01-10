@@ -1,16 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
 
-.corverde{
-    color: #7ED957;
+.corverde {
+  color: #7ed957;
+  text-align: center;
+  color: green;
+  animation: neon 1s ease-in-out infinite alternate;
 }
 
-.titulofrase{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 6rem;
-    width: 40rem;
-    margin-top: 10rem;
-    margin-left: 6rem;
+.titulofrase {
+  font-family: "League Spartan", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 6rem;
+  width: 40rem;
+  margin-top: 10rem;
+  margin-left: 6rem;
 }
+
+
+
