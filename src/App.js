@@ -9,11 +9,15 @@ import Icons from "./components/icons/icons.js";
 import InstagramIcone from "./instagram.png";
 import WhatsappIcone from "./whatsapp.png";
 import Localizacao from "./localizacao.png";
+import Logo from "./logorodrigo.png";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <div className="divlogo">
+        <img className="imagemlogo" src={Logo} alt="*" style={{ width: "8rem", height: "8rem" }} />
+        <Header />
+      </div>
       <div className="divmeio">
         <Titulo />
         <img className="imagemrodrigo" src={rodrigoSvg} alt="" />

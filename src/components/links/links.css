@@ -3,7 +3,6 @@
 .Links {
     text-decoration: none;
     color: aliceblue;
-    margin-top: 1rem;
     font-size: 1.2rem;
     font-weight: 600;
     margin: 0 1rem;
@@ -57,3 +56,5 @@
   .Links:hover span {
     transform: translate3d(-200%, 0, 0);
   }
+
+ 
