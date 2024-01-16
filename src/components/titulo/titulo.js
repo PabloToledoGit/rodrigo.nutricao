@@ -7,6 +7,7 @@ function Titulo() {
     <h1 className="titulofrase">
       Alcance a sua <strong className="corverde">melhor versão</strong>
     </h1>
+    
   );
 }
 

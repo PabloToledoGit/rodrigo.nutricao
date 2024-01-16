@@ -1,5 +1,7 @@
 body{
-  background-image: url("./plano-de-fundo.svg");
+  background-image: url("./img/fundo.png");
+  width: 100vw;
+  height: 100vh;
   background-repeat: no-repeat;
   background-color: black;
 
@@ -9,7 +11,7 @@ body{
   width: 24rem;
   margin-top: 3rem;
   margin-right: 5rem;
-  margin-bottom: 8rem;
+  border-radius: 50%;
 }
 
 .divmeio{
@@ -30,5 +32,12 @@ body{
 
 .divlogo{
   display: flex;
-  margin-left: 5rem;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.divmeio2{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
