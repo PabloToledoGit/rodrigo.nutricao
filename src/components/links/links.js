@@ -5,7 +5,7 @@ import './links.css';
 function Links(props) {
     return (
         <div className="Divlinks">
-            <a className="Links" href={props.url} target="_blank" rel="noreferrer">{props.text}</a>
+            <a className="Links" href={props.url} rel="noreferrer">{props.text}</a>
         </div>
     );
 }

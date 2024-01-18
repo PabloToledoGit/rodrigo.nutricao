@@ -6,38 +6,3 @@ body{
   background-color: black;
 
 }
-
-.imagemrodrigo{
-  width: 24rem;
-  margin-top: 3rem;
-  margin-right: 5rem;
-  border-radius: 50%;
-}
-
-.divmeio{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.divicone{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10rem;
-  gap: 0.5rem;
-  margin-right: 5rem;
-}
-
-
-.divlogo{
-  display: flex;
-  margin-left: 1rem;
-  margin-top: 3rem;
-}
-
-.divmeio2{
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-}
