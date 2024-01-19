@@ -12,12 +12,9 @@ import Agende from "../../components/agende/agende.js";
 function Home() {
   return (
     <div className="home">
-        <Header />
+      <Header />
       <div className="divmeio">
-        <div className="divmeio2">
-          <Titulo />
-        </div>
-        <img className="imagemrodrigo" src={rodrigoPng} alt="" />
+        <img className="imagemrodrigo" src={rodrigoPng} alt="Imagem do Rodrigo" />
         <div className="divicone">
           <Icons
             className="fotoicone"
@@ -27,6 +24,9 @@ function Home() {
           <Icons className="fotoicone" foto={WhatsappIcone} />
           <Icons className="fotoicone" foto={Localizacao} />
         </div>
+      </div>
+      <div className="divmeio2">
+        <Titulo />
       </div>
       <Agende />
     </div>

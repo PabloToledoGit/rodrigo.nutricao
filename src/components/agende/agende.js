@@ -10,7 +10,7 @@ function Agende() {
           className="agendebotao"
           target="blank"
         >
-          AGENDE JÁ
+          AGENDE!!
         </a>
         <p className="agendep">
           E ganhe um desconto promocional na sua primeira consulta.

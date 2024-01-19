@@ -9,13 +9,12 @@
 
 .titulofrase {
   font-family: "League Spartan", sans-serif;
-  font-size: 2.5rem;
   font-weight: 600;
+  margin-left: 3rem;
   color: #ffffff;
-  font-size: 6rem;
-  width: 40rem;
-  margin-top: 5rem;
-  margin-left: 6rem;
+  font-size: 3rem;
+  width: 20rem;
+  margin-top: 3rem;
 }
 
 
