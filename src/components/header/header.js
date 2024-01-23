@@ -5,13 +5,13 @@ import Links from "./../links/links.js";
 function Header() {
   return (
     <div className="header">
-      <div className="navbar bg-body-tertiary fixed-top">
+      <div className="navbar bg-dark fixed-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand text-light" href="#">
             Rodrigo Marinho
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler menuhamburguer"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar"
