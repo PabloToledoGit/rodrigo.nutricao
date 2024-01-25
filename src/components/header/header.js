@@ -7,7 +7,7 @@ function Header() {
     <div className="header">
       <div className="navbar bg-dark fixed-top">
         <div className="container-fluid">
-          <a className="navbar-brand text-light" href="#">
+          <a className="navbar-brand text-light titulo-nav" href="https://rodrigo-nutricao.vercel.app/">
             Rodrigo Marinho
           </a>
           <button

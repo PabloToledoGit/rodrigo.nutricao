@@ -12,7 +12,7 @@ import Agende from "../../components/agende/agende.js";
 function Home() {
   return (
     <div className="home">
-      <Header />
+      <Header className="header" />
       <div className="divmeio">
         <img className="imagemrodrigo" src={rodrigoPng} alt="Imagem do Rodrigo" />
         <div className="divicone">
